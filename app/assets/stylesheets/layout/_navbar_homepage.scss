@@ -1,5 +1,5 @@
 /* Main class */
-.navbar-bms {
+.navbar-bms-homepage {
   padding: 0px 60px;
   background-color: white;
   border-color: transparent;
@@ -22,7 +22,7 @@
 }
 
 /* Navbar logo */
-.navbar-bms-brand img {
+.navbar-bms-brand-homepage img {
   width: 250px;
   position: absolute;
   top: 20%;
@@ -30,9 +30,9 @@
 }
 
 /* Navbar main section (with form, links, button) */
-.navbar-bms-main {
+.navbar-bms-main-homepage {
   position: absolute;
-  top: 145px;
+  top: 150px;
   right: calc(100vw - 67.5%);
   
 }
@@ -48,9 +48,9 @@
   color: grey;
   text-decoration: none;
 }
-.social-links {
+.social-links-homepage {
   position: absolute;
-  top: 145px;
+  top: 150px;
   right: 50px;
   display: flex;
   
