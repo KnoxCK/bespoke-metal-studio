@@ -1,0 +1,15 @@
+.team-images {
+	display: flex;
+	justify-content: center;
+}
+.team-image img {
+	height: 500px;
+	width: 400px;
+	padding: 20px 30px;
+}
+.team-content {
+	padding: 20px 30px;
+	h5 {
+		padding-bottom: 10px;
+	}
+}
