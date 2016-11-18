@@ -10,3 +10,20 @@
 .contact-para {
 	padding: 40px 270px 20px 270px;
 }
+.contact-details {
+	i {
+		color: orange;
+		padding-right: 10px;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #E0E0E0;
+	}
+}
+.contact-image img {
+	padding-top: 30px;
+	width: 750px;
+}

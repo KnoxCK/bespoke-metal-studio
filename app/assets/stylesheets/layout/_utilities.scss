@@ -24,6 +24,16 @@
   background: #3b5998;
 }
 // Titles
+.top-title {
+	margin-top: 130px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	h3 {
+		margin: 0 20px 0 20px;
+	}
+}
 .title-line {
 	border-bottom: 4px solid rgb(224, 224, 224);
 	width: 100px;

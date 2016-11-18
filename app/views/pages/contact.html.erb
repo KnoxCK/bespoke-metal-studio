@@ -11,6 +11,7 @@
 	<div class="contact-para">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis itaque, vel numquam velit quos. 
 		</p>
+		<span><p>&mdash;</p></span>
 		<p>BESPOKE METAL STUDIO LTD</br>
 		UNIT 8</br>
 		HELDITE CENTRE</br>
@@ -18,9 +19,16 @@
 		HOUNSLOW</br>
 		MIDDLESEX</br>
 		TW3 1UP</p>
-
-		<p>Tel: 07905483601</p>
-		<p>Email: mybmstudio@hotmail.com</p>
+		<span><p>&mdash;</p></span>
+		<div class="contact-details">
+			<p><i class="fa fa-phone"></i>
+	      		<a href="tel:+44-203-488-1184">Tel: +44(0) 20 3488 1184</a></p>
+			<p><i class="fa fa-envelope"></i>
+				<%= link_to "mybmstudio@hotmail.com", "mailto:mybmstudio@hotmail.com" %></p>
+		</div>
 	</div>
+	<div class="contact-image">
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479464787/bms-map_gboeoz.jpg") %>
+		</div>
 </div>
 <%= render 'shared/footer' %>

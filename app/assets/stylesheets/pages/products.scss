@@ -17,9 +17,10 @@
 }
 .products-sub-section {
 	padding: 0 40px;
-	span {
+	span p {
 		color: #8D8D8D;
 		font-weight: lighter;
+		margin-bottom: 10px;
 	}	
 }
 .products-sub-header {
@@ -37,9 +38,16 @@
 	justify-content: center;
 }
 .products-sub-image img {
-	width: 20vw;
-	padding: 30px 15px;
+	width: 18vw;
+	margin: 30px 15px;
+	-webkit-transition: all .5s ease-in-out;
+	opacity: 0.90;
 }
+.products-sub-image img:hover {
+	-webkit-transform: scale(1.05);
+	opacity: 1;
+}
+
 .products-sub-para {
 	padding: 0 150px;
 }
