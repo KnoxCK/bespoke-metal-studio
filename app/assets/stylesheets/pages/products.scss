@@ -1,8 +1,19 @@
-.products-image img {
-	height: 50vh;
+.products-title {
+	margin: 130px 0 50px 0; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	h3 {
+		margin: 0 20px 0 20px;
+	}
+}
+.products-main img {
+	width: 65vw;
+	border-radius: 5px;
+	margin-bottom: 30px;
 }
 .products-para {
-	padding: 40px 210px 20px 210px;
+	margin: 0 175px 30px 175px;
 }
 .products-sub-section {
 	padding: 0 40px;
@@ -13,6 +24,13 @@
 }
 .products-sub-header {
 	padding-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	h4 {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 .products-sub-images {
 	display: flex;

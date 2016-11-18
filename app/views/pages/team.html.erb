@@ -1,13 +1,14 @@
 <%= render 'shared/navbar_general' %>
 
-<div class="container">
+<div class="container team">
 	<div class="top-title text-center">
 		<h3>THE TEAM</h3>
 	</div>
 	<div class="container">
 		<div class="team-images">
 			<div class="team-member">
-				<div class="team-image"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1478888667/BMS_Workshop-team_qubbzq.jpg") %>
+				<div class="team-image" id="team">
+				<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1478888667/BMS_Workshop-team_qubbzq.jpg") %>
 				</div>
 				<div class="team-content">
 					<h4>PREZ</h4>
@@ -35,5 +36,7 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="banner team-banner"	style="background-image: url('http://res.cloudinary.com/dv9bpfme2/image/upload/v1479422690/Team1_a0byb9.jpg');">
 </div>
 <%= render 'shared/footer' %>
