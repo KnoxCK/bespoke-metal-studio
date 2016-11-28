@@ -4,7 +4,32 @@
 .services-list-right {
   padding-left: 60px;
 }
-.services-images {
+.services-main {
+  img {
+    width: 50vw;
+    height: 360px;
+  }
+}
+.services-subtitle {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.services-para {
+  padding: 20px 100px 30px;
+}
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 10px;
+}
+.services-collage {
   padding: 40px 100px 0 100px;
 }
 #photos {
@@ -17,11 +42,4 @@
   -moz-column-gap:      5px;
   column-count:         3;
   column-gap:           10px;  
-}
-
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  padding-top: 10px;
 }
