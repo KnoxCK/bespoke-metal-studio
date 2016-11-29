@@ -8,22 +8,25 @@
 	</div>
 	<div class="container services-list">
 		<div class="row">
-			<div class="col-sm-6 services-list-left">
-				<h6><span>&mdash;</span> METAL FINISHING</h6>
-				<h6><span>&mdash;</span> INSTALLATIONS</h6>
-				<h6><span>&mdash;</span> RE/WIRING & UK CONVERSION</h6>
-			</div>
+			<div class="col-sm-6">
+				<p><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
+
+				<p><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
+				
+				<p><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
+				</div>
 			<div class="col-sm-6 services-list-right">
-				<h6><span>&mdash;</span> RESTORATION</h6>
-				<h6><span>&mdash;</span> LIGHTING CONSULTANCY</h6>
-			</div>	
+				<p><span>&mdash;&nbsp;</span><%= link_to "MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
+				<p><span>&mdash;&nbsp;</span><%= link_to "FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
+				<p><span>&mdash;&nbsp;</span><%= link_to "ELECTRICAL SERVICES: REWIRING, PAT TESTING & UK CONVERSION", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
+			</div>
 		</div>
 	</div>
 </div>
 <div class="services-triple-photos">
 </div>
-<div class="services-main container text-center">
-	<div class="services-subtitle">
+<div class="services-main container text-center" id="tailoring">
+	<div class="services-subtitle" id= "services-first-section">
 		<div class="small-line-left"></div>
 			<h5>TAILORING YOUR PROJECT</h5>
 		<div class="small-line-right"></div>
@@ -33,7 +36,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="product-design">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>PRODUCT DESIGN AND DEVELOPMENT</h5>
@@ -44,7 +47,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="production-process">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>THE PRODUCTION PROCESS</h5>
@@ -55,7 +58,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="materials">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>MATERIALS</h5>
@@ -66,7 +69,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="finishes">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>FINISHES</h5>
@@ -77,7 +80,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="tailoring">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>DELIVERY & INSTALLATION</h5>
@@ -88,7 +91,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="tailoring">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>ON-SITE MAINTENANCE SERVICE</h5>
@@ -99,7 +102,7 @@
 	</div>
 	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 </div>
-<div class="services-main container text-center">
+<div class="services-main container text-center" id="tailoring">
 	<div class="services-subtitle">
 		<div class="small-line-left"></div>
 			<h5>ELECTRICAL SERVICES: <br>            REWIRING, PAT TESTING & UK CONVERSION</h5>
