@@ -5,17 +5,22 @@
 .team-image img {
 	height: 500px;
 	width: 400px;
-	padding: 20px 30px;
+	padding: 0 30px;
 }
 .team-content {
-	padding: 0px 30px;
+	margin: 0px 30px;
+	background-color: #F9F9F9;
+	padding: 20px 8px;
+	height: 260px;
 	h6 {
 		padding-bottom: 5px;
-	}
-	p {
-		padding-bottom: 70px;
 	}
 }
 .team-banner {
 	margin-bottom: -70px;
+	height: 60vh;
+	width: 100%;
+	background-size: cover !important;
+	background-position: center;
+	margin-top: 70px;
 }

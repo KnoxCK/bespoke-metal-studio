@@ -1,3 +1,9 @@
+.contact-content {
+	position: relative;
+	z-index: 2;
+	margin-top: 70vh;
+	background-color: white;
+}
 .contact-title {
 	padding-top: 90px;
 	display: flex;
@@ -25,5 +31,6 @@
 }
 .contact-image img {
 	padding-top: 30px;
+	padding-bottom: 40px;
 	width: 750px;
 }

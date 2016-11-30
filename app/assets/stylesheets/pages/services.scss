@@ -1,9 +1,21 @@
+.services-title {
+  margin-left: 50px;
+}
 .services-list {
-  span {
-    color: grey;
-  }
-  padding-left: 240px;
-  margin-top: 50px;
+  padding: 20px 0;
+}
+.services-list-links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+.services-stuck { 
+  position: fixed;
+  z-index: 0;
+  top: 5px;
+  left: 8vw;
 }
 .services-list-right {
   margin-left: -45px;
@@ -18,17 +30,21 @@
   color: grey;
   text-decoration: none;
 }
+.services-top-section {
+  margin-top: 400px;
+}
 .services-main {
+  position: relative;
+  z-index: 2; 
+  background-color: #F9F9F9;
+  width: 70vw;
   img {
-    width: 50vw;
+    width: 45vw;
     height: 360px;
   }
 }
-#services-first-section {
-  padding-top: -10px;
-}
 .services-subtitle {
-  padding-top: 70px;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,25 +54,26 @@
   }
 }
 .services-para {
-  padding: 20px 120px 40px;
+  margin: 20px 120px 40px 120px;
 }
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  padding-top: 10px;
-}
-.services-collage {
-  padding: 40px 100px 0 100px;
-}
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   5px;
-  -moz-column-count:    5;
-  -moz-column-gap:      5px;
-  column-count:         3;
-  column-gap:           10px;  
+.services-list-two {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  top: 12vh;
+  left: 0;
+  z-index: 1;
+  position: fixed;
+  padding: 20px 0;
+  width: 15vw;
+  margin: 40px 40px 40px 0;
+  padding-left: 40px;
+  p {
+    padding-right: 58px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   span {
+    color: grey;
+  }
 }

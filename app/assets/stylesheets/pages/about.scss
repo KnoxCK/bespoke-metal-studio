@@ -1,3 +1,9 @@
+.about-content {
+	position: relative;
+	z-index: 2;
+	margin-top: 70vh;
+	background-color: white;
+}
 .about-title {
 	padding-top: 90px;
 	display: flex;
@@ -8,7 +14,7 @@
 	}
 }
 .about-para {
-  padding: 40px 100px 0px 100px;
+  padding: 40px 100px 20px 100px;
   p {
   	margin-bottom: 70px;
   }
