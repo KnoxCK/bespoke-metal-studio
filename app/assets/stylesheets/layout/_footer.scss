@@ -1,12 +1,25 @@
 // Your footer style
 .footer {
 	background-color: #0C0C0C;
-	height: 180px;
+	height: 241px;
 	color: grey;
+	margin-top: 0px;
+	h6 {
+	color: white;
 	font-size: 14px;
-	margin-top: 70px;
+	font-size: lighter;
+	}
 	p {
-		padding-top: 65px;
+		font-weight: lighter;
+		font-size: 14px;
+	}
+	a {
+		color: grey;
+		text-decoration: none;
+	}
+	a:hover {
+		color: white;
+		text-decoration: none;
 	}
 	i {
 		color: grey;
@@ -19,4 +32,9 @@
 	a:hover {
 		text-decoration: none;
 	}
+}
+.footer-main {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 250px 0 250px;
 }

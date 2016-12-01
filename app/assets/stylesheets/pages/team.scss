@@ -22,5 +22,17 @@
 	width: 100%;
 	background-size: cover !important;
 	background-position: center;
-	margin-top: 70px;
+	z-index: 3;
+}
+.team-member {
+	z-index: 100;
+	position: relative;
+	margin-top: 230px;
+	background-color: white;
+	padding-bottom: 60px;
+}
+.team-title {
+	position: fixed;
+	z-index: 0;
+	margin-left: 18vw;
 }

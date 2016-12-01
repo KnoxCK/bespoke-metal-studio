@@ -1,11 +1,35 @@
 <div class="footer">
-	<div class="footer-main text-center">
-		<p>Copyright © Bespoke Metal Studio</p>
-		<%= link_to "https://www.instagram.com/", target: "_blank" do %>
-  		<i class="fa fa-instagram"></i>
-		<% end %>
-		<%= link_to "https://pinterest.com", target: "_blank" do %>
-  		<i class="fa fa-pinterest"></i>
-		<% end %>
+	<div class="footer-main">
+		<div class="footer-child footer-left">
+			<h6>COMPANY</h6>
+			<p><%= link_to "ABOUT US", about_path %></p>
+			<p><%= link_to "OUR TEAM", team_path %></p>
+			<p><%= link_to "WHAT WE OFFER", services_path %></p>
+		</div>
+		<div class="footer-child footer-mid-left">
+			<h6>PRODUCTS</h6>
+			<p><%= link_to "BESPOKE LIGHTING", products_path(:anchor => "bespoke-lighting") %></p>
+			<p><%= link_to "HANDLES", products_path(:anchor => "handles") %></p>
+			<p><%= link_to "FITTINGS", products_path(:anchor => "fittings") %></p>
+			<p><%= link_to "FURNITURE", products_path(:anchor => "furniture") %></p>
+		</div>
+		<div class="footer-child footer-mid-right">
+			<h6>CONTACT</h6>
+			<p>TELEPHONE: </p>
+			<p><a href="tel:+44-795-626-3700">+44 7956 263700</a></p>
+			<p>EMAIL: </p>
+
+		</div>
+		<div class="footer-child footer-right">
+			<h6>CONNECT</h6>
+			<p>
+				<%= link_to "https://www.instagram.com/bespokemetalstudio/", target: "_blank" do %>
+  					<i class="fa fa-instagram"></i>
+				<% end %>
+				<%= link_to "https://uk.pinterest.com/bespokemetal/", target: "_blank" do %>
+  					<i class="fa fa-pinterest"></i>
+				<% end %>
+			</p>
+		</div>
 	</div>
 </div>

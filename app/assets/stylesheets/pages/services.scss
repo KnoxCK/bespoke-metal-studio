@@ -16,12 +16,14 @@
   z-index: 0;
   top: 5px;
   left: 8vw;
+  background-color: white;
 }
 .services-list-right {
   margin-left: -45px;
 }
 .services-list-link {
   color: black;
+  background-color: #F9F9F9;
   a {
     text-decoration: none;
   }
@@ -30,14 +32,23 @@
   color: grey;
   text-decoration: none;
 }
-.services-top-section {
-  margin-top: 400px;
+.services-top {
+  margin-top: 345px;
+} 
+.services-bottom {
+  padding-bottom: 30px;
+  margin-bottom:20px;
 }
-.services-main {
+.services-all {
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  margin-top:400px;
+}
+.services-sections {
   position: relative;
   z-index: 2; 
-  background-color: #F9F9F9;
-  width: 70vw;
+  background-color: white;
+  width: 74vw;
   img {
     padding-top: 30px;
     width: 40vw;
@@ -55,24 +66,24 @@
   }
 }
 .services-para {
-  margin: 20px 120px 40px 120px;
+  margin: 20px 100px 40px 100px;
 }
 .services-list-two {
-  background-color: white;
+  background-color: #F9F9F9;
   display: flex;
   flex-direction: column;
-  top: 12vh;
-  left: 0;
-  z-index: 1;
+  top: 15vh;
+  left: 14px;
+  z-index: 3;
   position: fixed;
   padding: 20px 0;
-  width: 15vw;
+  width: 17vw;
   margin: 40px 40px 40px 0;
   padding-left: 40px;
   p {
     padding-right: 58px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
    span {
     color: grey;
