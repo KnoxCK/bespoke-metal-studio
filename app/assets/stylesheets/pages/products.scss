@@ -27,44 +27,37 @@
 	padding-top: 40px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	h6 {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 }
 .products-sub-images {
-	position: relative;
-	z-index: 0;
 	height: 40vh;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin: 5px 40px;
 }
 .products-sub-image-1 img {
 	width: 22vw;
-	margin: 30px 10px;
 	-webkit-transition: all .5s ease-in-out;
 	opacity: 0.90;
 	z-index: 1;
-	position: absolute;
-	left: 100px;
 }
 .products-sub-image-2 img {
 	width: 22vw;
-	margin: 30px 10px;
 	-webkit-transition: all .5s ease-in-out;
 	opacity: 0.90;
 	z-index: 1;
-	position: absolute;
-	left: 500px;
-
 }
 .products-sub-image-3 img {
 	width: 22vw;
-	margin: 30px 10px;
 	-webkit-transition: all .5s ease-in-out;
 	opacity: 0.90;
 	z-index: 1;
-	position: absolute;
-	left: 900px;
 }
 .products-sub-image img:hover {
 	-webkit-transform: scale(1.40);
