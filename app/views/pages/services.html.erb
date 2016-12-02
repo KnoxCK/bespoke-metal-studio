@@ -1,25 +1,24 @@
 <%= render 'shared/navbar_general' %>
-
+<div class="center">
 <div class="services-stuck pullDown">
 	<div class="top-title text-center">
 		<div class="title-line-left"></div>
 			<h4>SERVICES</h4>
 		<div class="title-line-right"></div>
 	</div>
-	<div class="container services-list">
-		<div class="row services-list-links">
-			<div class="col-sm-6">
-				<p><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
-				</div>
-			<div class="col-sm-6 services-list-right">
-				<p><span>&mdash;&nbsp;</span><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
-			</div>
+	<div class="services-lists">
+		<div>
+			<p><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
+			<p><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
+			<p><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
+		</div>
+		<div>
+			<p><span>&mdash;&nbsp;</span><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
+			<p><span>&mdash;&nbsp;</span><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
+			<p><span>&mdash;&nbsp;</span><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
 		</div>
 	</div>
+</div>
 </div>
 <div class="services-list-two pullUp hidden">
 	<p><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
