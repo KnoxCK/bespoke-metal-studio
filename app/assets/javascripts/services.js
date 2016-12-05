@@ -7,3 +7,7 @@ $(window).scroll(function() {
         $(".services-list-two").addClass("hidden");
     }
 });
+$(document).on('click', '.tailoring-link', function(e) {
+  $(".extra-tailoring").removeClass("hidden");
+e.preventDefault();
+});
