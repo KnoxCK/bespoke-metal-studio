@@ -1,12 +1,14 @@
 // Your footer style
 .footer {
 	background-color: #0C0C0C;
+	z-index: 10000 !important;
+	position: relative;
 }
 .footer-main {
 	display: flex;
 	justify-content: space-between;
-	padding: 50px 250px 0 250px;
-	height: 241px;
+	padding: 10vh 250px 0 250px;
+	height: 40vh;
 	color: grey;
 	margin-top: 0px;
 	h6 {
