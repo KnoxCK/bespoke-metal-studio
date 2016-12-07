@@ -1,19 +1,24 @@
 <%= render 'shared/navbar_general' %>
 
-<div class="container text-center pullDown">
+<div class="container text-center">
 	<div class="products-main text-center">
-		<div class="products-title">
+		<div class="products-title pullDown">
 			<div class="title-line-left"></div>
 			<h4>PRODUCTS</h4>
 			<div class="title-line-right"></div>
 		</div>
-		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479424166/bms-products-1.jpg", class: "hidden") %>
-		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products2.jpg") %>
-		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products3.jpg", class: "hidden") %>
-		<p class="products-para" id="bespoke-lighting">Bespoke Metal Studio offers a wide range of products from lighting and handles to fittings and furniture. Using a wide range of materials and finishes, each product is unique and designed to the customer’s exact requirements.
-</p>
+		<div class="product-image-section">
+			<div id="product-image">
+				<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479424166/bms-products-1.jpg", class: "active ") %>
+				<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products2.jpg") %>
+				<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products3.jpg") %>
+			</div>
+		</div>
 	</div>
+	<p class="products-para pullDown" id="bespoke-lighting">Bespoke Metal Studio has extensive experience in designing and creating beautiful products from lighting and handles to fittings and furniture. Using a wide range of materials and finishes, each product is unique and designed to the customer’s exact requirements.
+	</p>
 </div>
+		
 <div class="products-sub-section text-center">
 	<div class="products-sub-header">
 		<div class="small-line-left"></div>
@@ -83,7 +88,7 @@
 		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481050425/Furniture4_cdah2b.jpg") %></div>
 	</div>
 	<div class="products-sub-para">
-		<p>Our furniture design is original and minimalistic in the form of splendid beds made from of XX, tables out of XX, brass chairs and XX desks. Each piece is guaranteed to be beautiful, unique and durable.</p>
+		<p>Our furniture design is original and minimalistic in the form of splendid beds made from of steel, tables out of brass, brass chairs and steel/glass doors. Each piece is guaranteed to be beautiful, unique and durable.</p>
 	</div>
 </div>
 

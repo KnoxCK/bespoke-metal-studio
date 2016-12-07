@@ -4,17 +4,17 @@
   top: 5px;
   background-color: white;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
 }
 .services-lists {
+  padding-bottom: 20px;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 .services-list-link {
   color: black;
-  background-color: #F9F9F9;
+  background-color: #FBFAF9;
   a {
     text-decoration: none;
   }
@@ -30,11 +30,14 @@
   padding-bottom: 30px;
   margin-bottom:20px;
 }
+.services-wrapper {
+  background-color: #FBFAF9;
+}
 .services-sections {
   position: relative;
   z-index: 2; 
   background-color: white;
-  width: 74vw;
+  
   img {
     margin-top: 30px;
     margin-bottom: 20px;

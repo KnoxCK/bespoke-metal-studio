@@ -1,45 +1,49 @@
 <%= render 'shared/navbar_general' %>
-<div class="center">
-	<div class="services-stuck pullDown">
-		<div class="top-title text-center">
-			<div class="title-line-left"></div>
-				<h4>SERVICES</h4>
-			<div class="title-line-right"></div>
-		</div>
-		<div class="services-lists">
-			<div>
-				<p><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
+
+<div class="services-wrapper">
+	<div class="center">
+		<div class="services-stuck">
+			<div class="top-title pullDown text-center">
+				<div class="title-line-left"></div>
+					<h4>SERVICES</h4>
+				<div class="title-line-right"></div>
 			</div>
-			<div>
-				<p><span>&mdash;&nbsp;</span><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " DELIVERY & INSTALLATION", services_path(:anchor => "delivery"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></p>
-				<p><span>&mdash;&nbsp;</span><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
+			<div class="services-lists container pullDown">
+				<div>
+					<p><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
+				</div>
+				<div>
+					<p><span>&mdash;&nbsp;</span><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " DELIVERY & INSTALLATION", services_path(:anchor => "delivery"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></p>
+					<p><span>&mdash;&nbsp;</span><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="services-list-two pullUp hidden">
-	<p><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " DELIVERY & INSTALLATION ", services_path(:anchor => "delivery"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></p>
-	<span>&mdash;&nbsp;</span>
-	<p><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
-</div>
-	<div class="services-top services-sections container text-center" id="tailoring">
+
+	<div class="services-list-two pullUp hidden">
+		<p><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " DELIVERY & INSTALLATION ", services_path(:anchor => "delivery"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></p>
+		<span>&mdash;&nbsp;</span>
+		<p><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></p>
+	</div>
+
+	<div class="services-top services-sections pullUp container text-center" id="tailoring">
 		<div class="services-subtitle">
 			<div class="small-line-left"></div>
 				<h5>TAILORING YOUR PROJECT</h5>
@@ -50,88 +54,86 @@
 			<p>Our design and manufacturing teams work closely together on each project, taking into consideration budget and time scale and never compromising on quality when adapting to one’s individual needs. We love embracing new challenges and always provide a well-rounded experience for our clients to ensure they are completely satisfied from start to finish. From unique chandeliers and bespoke lanterns, to handles, furniture and fittings, we use our skills and experience to exceed expectations regardless of size, shape, metal finish or materials involved.</p> 
 		</div>
 	</div>
-
-<div class="services-sections container text-center" id="product-design">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>PRODUCT DESIGN AND DEVELOPMENT</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480591145/bms-services2.jpg") %>
-	<div class="services-para">
-		<p>We will liaise with you at every step of the way – from the product’s conception to its completion. We advise on materials, light fittings, fixing methods, assembling solutions and maintenance. We use a 3D designing software to present high definition renders and technical drawings for your approval prior to manufacturing.</p> 
-	</div>
-</div>
-<div class="services-sections container text-center" id="production-process">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>THE PRODUCTION PROCESS</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480591147/bms-services3.jpg") %>
-	<div class="services-para">
-		<p>We believe that because our manufacturing processes are either in-house or local to us, we are able to keep a tight control over time, cost and quality unlike many of our competitors. This is extremely important to us so we aim to keep you updated on progress at each step of the way and involved in the production process as much as possible. We have been working with the majority of our suppliers for more than 5 years and they share our emphasis on exceptional quality and strict timeframes.</p> 
-	</div>
-</div>
-<div class="services-sections container text-center" id="materials">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>MATERIALS</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
-	<div class="services-para">
-		<p>At Bespoke Metal Studio we specialise in metalwork and therefore are delighted to take on any project that has metal involved in the design, be it brass, steel, stainless steel, aluminium or copper. However, we also work with stone, glass, fabrics and many exotic materials that can be applied to our designs as, for example, decorative inlays, light shades or diffusers.</p> 
-	</div>
-</div>
-<div class="services-sections container text-center" id="finishes">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>FINISHES</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
-	<div class="services-para">
-		<p>Our range of metal finishes made in-house includes satin brass, polished brass, antique bronze, mid bronze, dark bronze, polished stainless steel and polished copper. We also offer nickel plating, powder coating, any RAL code painting and lacquered finishes. Our glass suppliers offer different textures, colours and effects, as well as clear or frosted finishes. We are happy to take a sample you may have, for instance a lamp shade, fabric sample or metal finish, and match it to create our own samples for your approval.</p> 
-	</div>
-</div>
-<div class="services-sections container text-center" id="delivery">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>DELIVERY & INSTALLATION</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
-	<div class="services-para">
-		<p>When it comes to delivery and installation, we will always adapt to your needs. We often liaise with  site managers and electricians on-site to ensure all requirements are fulfilled, providing them with technical specifications as well as installation and maintenance instructions. We can arrange packaging and delivery for you worldwide or deliver the products ourselves if the project is in London. Alternatively, we offer a full service which includes installation within the package – our team will visit the site, ensuring access is feasible, checking fixings and fittings in ceilings and walls and planning the installation thoroughly.</p> 
-	</div>
-</div>
-<div class="services-sections container text-center" id="maintenance">
-	<div class="services-subtitle">
-		<div class="small-line-left"></div>
-			<h5>ON-SITE MAINTENANCE SERVICE</h5>
-		<div class="small-line-right"></div>
-	</div>
-	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
-	<div class="services-para">
-		<p>Whether Bespoke Metal Studio has installed your fittings or not, we can take care of maintenance of chandeliers and light fittings, electrical fittings or metal finishes. We are very aware of how difficult is to have some pieces properly cleaned when both glass and metal are involved and sometimes electrical fittings need revision and substitution.</p> 
-	</div>
-</div>
-<div class="services-bottom">
-	<div class="services-sections container text-center" id="electrical-services">
+	<div class="services-sections container text-center" id="product-design">
 		<div class="services-subtitle">
 			<div class="small-line-left"></div>
-				<h5>ELECTRICAL SERVICES</h5>
+				<h5>PRODUCT DESIGN AND DEVELOPMENT</h5>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480591145/bms-services2.jpg") %>
+		<div class="services-para">
+			<p>We will liaise with you at every step of the way – from the product’s conception to its completion. We advise on materials, light fittings, fixing methods, assembling solutions and maintenance. We use a 3D designing software to present high definition renders and technical drawings for your approval prior to manufacturing.</p> 
+		</div>
+	</div>
+	<div class="services-sections container text-center" id="production-process">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h5>THE PRODUCTION PROCESS</h5>
 			<div class="small-line-right"></div>
 		</div>
 		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
 		<div class="services-para">
-			<p>We provide in-house electrical services, such as rewiring and pat testing to update or maintain old fittings, or conversions from USA to UK standards. Our extensive stock of electrical components allows us to respond quickly and work efficiently to adapt to your lead-times.</p> 
+			<p>We believe that because our manufacturing processes are either in-house or local to us, we are able to keep a tight control over time, cost and quality unlike many of our competitors. This is extremely important to us so we aim to keep you updated on progress at each step of the way and involved in the production process as much as possible. We have been working with the majority of our suppliers for more than 5 years and they share our emphasis on exceptional quality and strict timeframes.</p> 
+		</div>
+	</div>
+	<div class="services-sections container text-center" id="materials">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h5>MATERIALS</h5>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480591147/bms-services3.jpg") %>
+		<div class="services-para">
+			<p>At Bespoke Metal Studio we specialise in metalwork and therefore are delighted to take on any project that has metal involved in the design, be it brass, steel, stainless steel, aluminium or copper. However, we also work with stone, glass, fabrics and many exotic materials that can be applied to our designs as, for example, decorative inlays, light shades or diffusers.</p> 
+		</div>
+	</div>
+	<div class="services-sections container text-center" id="finishes">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h5>FINISHES</h5>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
+		<div class="services-para">
+			<p>Our range of metal finishes made in-house includes satin brass, polished brass, antique bronze, mid bronze, dark bronze, polished stainless steel and polished copper. We also offer nickel plating, powder coating, any RAL code painting and lacquered finishes. Our glass suppliers offer different textures, colours and effects, as well as clear or frosted finishes. We are happy to take a sample you may have, for instance a lamp shade, fabric sample or metal finish, and match it to create our own samples for your approval.</p> 
+		</div>
+	</div>
+	<div class="services-sections container text-center" id="delivery">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h5>DELIVERY & INSTALLATION</h5>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
+		<div class="services-para">
+			<p>When it comes to delivery and installation, we will always adapt to your needs. We often liaise with  site managers and electricians on-site to ensure all requirements are fulfilled, providing them with technical specifications as well as installation and maintenance instructions. We can arrange packaging and delivery for you worldwide or deliver the products ourselves if the project is in London. Alternatively, we offer a full service which includes installation within the package – our team will visit the site, ensuring access is feasible, checking fixings and fittings in ceilings and walls and planning the installation thoroughly.</p> 
+		</div>
+	</div>
+	<div class="services-sections container text-center" id="maintenance">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h5>ON-SITE MAINTENANCE SERVICE</h5>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
+		<div class="services-para">
+			<p>Whether Bespoke Metal Studio has installed your fittings or not, we can take care of maintenance of chandeliers and light fittings, electrical fittings or metal finishes. We are very aware of how difficult is to have some pieces properly cleaned when both glass and metal are involved and sometimes electrical fittings need revision and substitution.</p> 
+		</div>
+	</div>
+	<div class="services-bottom">
+		<div class="services-sections container text-center" id="electrical-services">
+			<div class="services-subtitle">
+				<div class="small-line-left"></div>
+					<h5>ELECTRICAL SERVICES</h5>
+				<div class="small-line-right"></div>
+			</div>
+			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479423769/about1_dzzuqz.jpg") %>
+			<div class="services-para">
+				<p>We provide in-house electrical services, such as rewiring and pat testing to update or maintain old fittings, or conversions from USA to UK standards. Our extensive stock of electrical components allows us to respond quickly and work efficiently to adapt to your lead-times.</p> 
+			</div>
 		</div>
 	</div>
 </div>
-
-
 
 
 
