@@ -1,19 +1,17 @@
 // Your footer style
 .footer {
-	background-color: #162128;
+	background-color: #CFC8BF;
 	z-index: 10000 !important;
 	position: relative;
 }
 .footer-main {
 	display: flex;
 	justify-content: space-between;
-	padding: 10vh 250px 0 250px;
+	padding: 10vh 300px 0 300px;
 	height: 40vh;
-	color: grey;
 	margin-top: 0px;
 	h6 {
-	color: white;
-	font-size: 14px;
+	color: #4B4B4B;
 	font-size: lighter;
 	}
 	p {
@@ -39,5 +37,8 @@
 	a:hover {
 		text-decoration: none;
 	}
+}
+.footer-mid-right {
+	width: 100px;
 }
 

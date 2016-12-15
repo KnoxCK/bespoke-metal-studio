@@ -19,24 +19,23 @@
 
 /* Navbar logo */
 .navbar-bms-brand img {
-    height: 16px;
+    height: 80px;
     position: absolute;
-    top: 24px;
-    left: 55px;
+    top: -6px;
+    left: 39px;
 }
 
 /* Navbar main section (with form, links, button) */
 .navbar-bms-main {
   position: absolute;
   top: 23px;
-  right: calc(100vw - 67.5%);
+  right: calc(100vw - 66%);
   
 }
 .navbar-bms-link {
   color: black;
   font-size: 14px;
   padding: 0 10px;
-  font-weight: lighter;
   letter-spacing: 2px;
   line-height: 0.5px;
 }
