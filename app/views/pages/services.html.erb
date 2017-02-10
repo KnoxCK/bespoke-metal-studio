@@ -1,6 +1,6 @@
 <%= render 'shared/navbar_general' %>
 
-<div class="services-wrapper">
+<div class="main-wrapper">
 	<div class="center">
 		<div class="services-stuck">
 			<div class="services-title pullDown text-center">
@@ -23,26 +23,28 @@
 		</div>
 	</div>
 
-	<div class="services-list-two container pullUp hidden">
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " FINISHES ", services_path(:anchor => "finishes"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " DELIVERY & INSTALLATION ", services_path(:anchor => "delivery"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></h6>
-		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></h6>
-	</div>
+	<div class="services-list-two pullDown container hidden">
+		<div>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></h5>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></h5>
+		</div>
+		<div>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></h5>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></h5>
+		</div>
+		<div>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></h5>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " DELIVERY & INSTALLATION", services_path(:anchor => "delivery"), class: "services-list-link" %></h5>
+		</div>
+		<div>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " ON-SITE MAINTENANCE", services_path(:anchor => "maintenance"), class: "services-list-link" %></h5>
+			<h5><span>&mdash;&nbsp;</span><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></h5>
+		</div>
+		</div>
+			
 
-	<div class="services-top container services-sections pullUp text-center" id="tailoring">
+
+	<div class="container services-sections pullUp text-center" id="tailoring">
 		<div class="services-subtitle">
 			<div class="small-line-left"></div>
 				<h4>TAILORING YOUR PROJECT</h4>
@@ -119,17 +121,16 @@
 			<p>Whether Bespoke Metal Studio has installed your fittings or not, we can take care of maintenance of chandeliers and light fittings, electrical fittings or metal finishes. We are very aware of how difficult is to have some pieces properly cleaned when both glass and metal are involved and sometimes electrical fittings need revision and substitution.</p> 
 		</div>
 	</div>
-	<div class="services-bottom">
-		<div class="services-sections container text-center" id="electrical-services">
-			<div class="services-subtitle">
-				<div class="small-line-left"></div>
-					<h4>ELECTRICAL SERVICES</h4>
-				<div class="small-line-right"></div>
-			</div>
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481146447/Electrical_services_bms.jpg") %>
-			<div class="services-para">
-				<p>We provide in-house electrical services, such as rewiring and pat testing to update or maintain old fittings, or conversions from USA to UK standards. Our extensive stock of electrical components allows us to respond quickly and work efficiently to adapt to your lead-times.</p> 
-			</div>
+
+	<div class="services-sections container text-center" id="electrical-services">
+		<div class="services-subtitle">
+			<div class="small-line-left"></div>
+				<h4>ELECTRICAL SERVICES</h4>
+			<div class="small-line-right"></div>
+		</div>
+		<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481146447/Electrical_services_bms.jpg") %>
+		<div class="services-para">
+			<p>We provide in-house electrical services, such as rewiring and pat testing to update or maintain old fittings, or conversions from USA to UK standards. Our extensive stock of electrical components allows us to respond quickly and work efficiently to adapt to your lead-times.</p> 
 		</div>
 	</div>
 </div>

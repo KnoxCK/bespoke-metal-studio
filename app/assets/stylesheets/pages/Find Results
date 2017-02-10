@@ -1,0 +1,31 @@
+Searching 2897 files for "main-wrapper"
+
+/Users/clarissaknox/code/projects/BMS/app/assets/stylesheets/layout/_utilities.scss:
+   25  }
+   26  //Wrapper
+   27: .main-wrapper {
+   28  	background-color: white;
+   29  }
+
+/Users/clarissaknox/code/projects/BMS/app/views/pages/about.html.erb:
+   14  </div>
+   15  
+   16: <div class="main-wrapper">
+   17  	<div class="container pullDown text-center about-content">
+   18  		<div class="main-title">
+
+/Users/clarissaknox/code/projects/BMS/app/views/pages/contact.html.erb:
+    4  </div>
+    5  
+    6: <div class="main-wrapper">
+    7  <div class="container pullDown text-center contact-content">
+    8  	<div class="main-title">
+
+/Users/clarissaknox/code/projects/BMS/app/views/pages/products.html.erb:
+   10  
+   11  
+   12: <div class="main-wrapper">
+   13  	<div class="container pullDown text-center products-content">
+   14  		<div class="main-title">
+
+4 matches across 4 files
