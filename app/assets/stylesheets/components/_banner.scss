@@ -3,9 +3,31 @@
   top: 0;
   left: 0;
   z-index: 0;
-  height: 60vh;
+  height: 59vh;
   width: 100%;
   background-size: cover !important;
   background-position: center;
   margin-top: 70px;
 }		
+#banner-main-image {
+	img {
+		height: 59vh;
+		width: 100%;
+		margin-top: 70px;
+		position: absolute;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: -10;
+	}
+	img.active { 
+		height: 59vh;
+		width: 100%;
+		margin-top: 70px;
+		position: absolute;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 10;
+	}
+}

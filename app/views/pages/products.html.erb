@@ -1,94 +1,95 @@
 <%= render 'shared/navbar_general' %>
 
-<div class="container text-center">
-	<div class="products-main text-center">
-		<div class="products-title pullDown">
-			<div class="title-line-left"></div>
+<div id="banner-main-image">
+	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479424166/bms-products-1.jpg", class: "active") %>
+	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products2.jpg") %>
+	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products3.jpg") %>
+	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481550319/products_4_kjbblz.jpg") %>
+	<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481550319/products_5_y6o5nj.jpg") %>
+</div>
+
+
+<div class="main-wrapper">
+	<div class="container pullDown text-center products-content">
+		<div class="main-title">
 			<h3>PRODUCTS</h3>
-			<div class="title-line-right"></div>
 		</div>
-		<div id="product-image">
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479424166/bms-products-1.jpg", class: "active ") %>
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products2.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480590261/bms-products3.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481550319/products_4_kjbblz.jpg") %>
-			<%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481550319/products_5_y6o5nj.jpg") %>
-		</div>
-	</div>
 	<p class="products-para pullDown" id="bespoke-lighting">Bespoke Metal Studio has extensive experience in designing and creating beautiful products from lighting and handles to fittings and furniture. Using a wide range of materials and finishes, each product is unique and designed to the customer’s exact requirements.
 	</p>
-</div>
-		
-<div class="products-sub-section text-center">
-	<div class="products-sub-header">
-		<div class="small-line-left"></div>
-		<h4>BESPOKE LIGHTING</h4>
-		<div class="small-line-right"></div>
-	</div>
-	<div class="products-sub-images">
-		<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589413/BespokeMetalStudioLights1.jpg") %></div>
-		<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589824/BespokeMetalStudioLights-2.jpg") %></div>
-		<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589410/BespokeMetalStudioLights3.jpg") %></div>
-		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480968246/Lighting7_izlyjb.jpg") %></div>
-	</div>
-	<div class="products-sub-para" id="handles">
-		<p>Our exquisite individual lights are all handcrafted and finished to the highest standard using traditional finishing techniques. We offer a contemporary and stylish selection of lights in a variety of finishes tailored to each project, for example black chrome, dark bronze, nickel and polished brass.</p>
-	</div>
-	<div class="products-sub-images">
-		<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1482151519/bespokemetalstudiolantern_qboucd.jpg") %></div>
-		<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967569/Lighting6_vcy6rt.jpg") %></div>
-		<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481710877/BespokeMetalStudioLights9.jpg") %></div>
-		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481711171/BespokeMetalStudioLights8.jpg") %></div>
-	</div>
-</div>
-<div class="products-sub-section text-center">
-	<div class="products-sub-header">
-		<div class="small-line-left-two"></div>
-		<h4> HANDLES </h4>
-		<div class="small-line-right-two"></div>
-	</div>
-	<div class="products-sub-images">
-		<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479227046/BespokeMetalStudioHandles4.jpg") %></div>
-		<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480588822/BespokeMetalStudioHandles1.jpg") %></div>
-		<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479726016/BMS_services_small3_c52w0c.jpg") %></div>
-		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967549/Handles1_kpc5hx.jpg") %></div>
-	</div>
-	<div class="products-sub-para" id="fittings">
-		<p>We design stunning yet sturdy handles that are original and made to order. Whether for drawers, doors or cupboards, big or small, we can design a style to suit any need.</p>
+
+		<div class="products-sub-section text-center">
+			<div class="products-sub-header">
+				<div class="small-line-left"></div>
+				<h4>BESPOKE LIGHTING</h4>
+				<div class="small-line-right"></div>
+			</div>
+			<div class="products-sub-images">
+				<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589413/BespokeMetalStudioLights1.jpg") %></div>
+				<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589824/BespokeMetalStudioLights-2.jpg") %></div>
+				<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480589410/BespokeMetalStudioLights3.jpg") %></div>
+				<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480968246/Lighting7_izlyjb.jpg") %></div>
+			</div>
+			<div class="products-sub-para" id="handles">
+				<p>Our exquisite individual lights are all handcrafted and finished to the highest standard using traditional finishing techniques. We offer a contemporary and stylish selection of lights in a variety of finishes tailored to each project, for example black chrome, dark bronze, nickel and polished brass.</p>
+			</div>
+			<div class="products-sub-images">
+				<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1482151519/bespokemetalstudiolantern_qboucd.jpg") %></div>
+				<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967569/Lighting6_vcy6rt.jpg") %></div>
+				<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481710877/BespokeMetalStudioLights9.jpg") %></div>
+				<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481711171/BespokeMetalStudioLights8.jpg") %></div>
+			</div>
+		</div>
+		<div class="products-sub-section text-center">
+			<div class="products-sub-header">
+				<div class="small-line-left-two"></div>
+				<h4> HANDLES </h4>
+				<div class="small-line-right-two"></div>
+			</div>
+			<div class="products-sub-images">
+				<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479227046/BespokeMetalStudioHandles4.jpg") %></div>
+				<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480588822/BespokeMetalStudioHandles1.jpg") %></div>
+				<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479726016/BMS_services_small3_c52w0c.jpg") %></div>
+				<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967549/Handles1_kpc5hx.jpg") %></div>
+			</div>
+			<div class="products-sub-para" id="fittings">
+				<p>We design stunning yet sturdy handles that are original and made to order. Whether for drawers, doors or cupboards, big or small, we can design a style to suit any need.</p>
+			</div>
+		</div>
+
+		<div class="products-sub-section text-center">
+			<div class="products-sub-header">
+				<div class="small-line-left-two"></div>
+				<h4> FITTINGS </h4>
+				<div class="small-line-right-two"></div>
+			</div>
+			<div class="products-sub-images">
+				<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479290573/BespokeMetalStudioFittings2.jpg") %></div>
+				<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480587357/BespokeMetalStudioFittings.jpg") %></div>
+				<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481051917/bms-fittings-2_x5apao.jpg") %></div>
+				<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967539/bms-fittings-4_xyigti.jpg") %></div>
+			</div>
+			<div class="products-sub-para" id="furniture">
+				<p>All of our decorative interior elements are designed, made and installed to complement any room. We offer various finishes such as antique bronze, dark bronze, antique silver and black nickel.</p>
+			</div>
+		</div>
+
+		<div class="products-sub-section text-center last-section">
+			<div class="products-sub-header">
+				<div class="small-line-left-two"></div>
+				<h4> FURNITURE </h4>
+				<div class="small-line-right-two"></div>
+			</div>
+			<div class="products-sub-images">
+				<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480588454/BespokeMetalStudioFurniture2.jpg") %></div>
+				<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479292035/BespokeMetalStudioFurniture.jpg") %></div>
+				<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480587802/Furniture2_rpskzn.jpg") %></div>
+				<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481146902/bespoke_metal-studio_Furniture4.jpg") %></div>
+			</div>
+			<div class="products-sub-para">
+				<p>Our furniture design is original and minimalistic in the form of splendid beds made from of steel, tables out of brass, brass chairs and steel/glass doors. Each piece is guaranteed to be beautiful, unique and durable.</p>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div class="products-sub-section text-center">
-	<div class="products-sub-header">
-		<div class="small-line-left-two"></div>
-		<h4> FITTINGS </h4>
-		<div class="small-line-right-two"></div>
-	</div>
-	<div class="products-sub-images">
-		<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479290573/BespokeMetalStudioFittings2.jpg") %></div>
-		<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480587357/BespokeMetalStudioFittings.jpg") %></div>
-		<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481051917/bms-fittings-2_x5apao.jpg") %></div>
-		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480967539/bms-fittings-4_xyigti.jpg") %></div>
-	</div>
-	<div class="products-sub-para" id="furniture">
-		<p>All of our decorative interior elements are designed, made and installed to complement any room. We offer various finishes such as antique bronze, dark bronze, antique silver and black nickel.</p>
-	</div>
-</div>
-
-<div class="products-sub-section text-center last-section">
-	<div class="products-sub-header">
-		<div class="small-line-left-two"></div>
-		<h4> FURNITURE </h4>
-		<div class="small-line-right-two"></div>
-	</div>
-	<div class="products-sub-images">
-		<div class="products-sub-image products-sub-image-1"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480588454/BespokeMetalStudioFurniture2.jpg") %></div>
-		<div class="products-sub-image products-sub-image-2"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1479292035/BespokeMetalStudioFurniture.jpg") %></div>
-		<div class="products-sub-image products-sub-image-3"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1480587802/Furniture2_rpskzn.jpg") %></div>
-		<div class="products-sub-image products-sub-image-4"><%= image_tag("http://res.cloudinary.com/dv9bpfme2/image/upload/v1481146902/bespoke_metal-studio_Furniture4.jpg") %></div>
-	</div>
-	<div class="products-sub-para">
-		<p>Our furniture design is original and minimalistic in the form of splendid beds made from of steel, tables out of brass, brass chairs and steel/glass doors. Each piece is guaranteed to be beautiful, unique and durable.</p>
-	</div>
-</div>
 

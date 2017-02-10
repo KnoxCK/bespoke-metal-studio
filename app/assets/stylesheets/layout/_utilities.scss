@@ -23,21 +23,12 @@
 .bg-dark-blue {
   background: #3b5998;
 }
+//Wrapper
+.main-wrapper {
+	background-color: #FBFAF9;
+}
+
 // Titles
-.title-line {
-	border-bottom: 4px solid #EBE5DE;
-	width: 100px;
-}
-.title-line-left {
-	border-bottom: 3px solid #EBE5DE;
-	width: 100px;
-	margin-left: 140px;
-}
-.title-line-right {
-	border-bottom: 3px solid #EBE5DE;
-	width: 100px;
-	margin-right: 140px;
-}
 .small-line-left {
 	border-bottom: 1px solid #EBE5DE;
 	width: 380px;
@@ -58,4 +49,12 @@
 	width: 400px;
 	margin-right: 115px;
 }
-
+.main-title {
+	padding-top: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	h3 {
+		margin: 0 20px 0 20px;
+	}
+}

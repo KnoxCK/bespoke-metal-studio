@@ -1,18 +1,9 @@
 .about-content {
 	position: relative;
 	z-index: 100;
-	margin-top: 70vh;
+	margin-top: 65vh;
 	background-color: white;
 	padding-bottom: 30px;
-}
-.about-title {
-	padding-top: 90px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	h3 {
-		margin: 0 20px 0 20px;
-	}
 }
 .about-para {
   padding: 40px 130px 20px 130px;
@@ -23,30 +14,4 @@
 .about-image img {
 	width: 60vw;
 	margin-bottom: 20px;
-}
-.about-wrapper {
-	background-color: #FBFAF9;
-}
-
-#about-main-image {
-	img {
-		height: 59vh;
-		width: 100%;
-		margin-top: 70px;
-		position: absolute;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		z-index: -10;
-	}
-	img.active { 
-		height: 59vh;
-		width: 100%;
-		margin-top: 70px;
-		position: absolute;
-		position: fixed;
-		top: 0px;
-		left: 0px;
-		z-index: 10;
-	}
 }

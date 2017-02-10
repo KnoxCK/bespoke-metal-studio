@@ -4,9 +4,7 @@
 	<div class="center">
 		<div class="services-stuck">
 			<div class="services-title pullDown text-center">
-				<div class="title-line-left"></div>
-					<h3>SERVICES</h3>
-				<div class="title-line-right"></div>
+				<h3>SERVICES</h3>
 			</div>
 			<div class="services-lists container pullDown">
 				<div>
@@ -25,7 +23,8 @@
 		</div>
 	</div>
 
-	<div class="services-list-two pullUp hidden">
+	<div class="services-list-two container pullUp hidden">
+		<span>&mdash;&nbsp;</span>
 		<h6><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></h6>
 		<span>&mdash;&nbsp;</span>
 		<h6><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></h6>
@@ -34,7 +33,7 @@
 		<span>&mdash;&nbsp;</span>
 		<h6><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></h6>
 		<span>&mdash;&nbsp;</span>
-		<h6><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></h6>
+		<h6><%= link_to " FINISHES ", services_path(:anchor => "finishes"), class: "services-list-link" %></h6>
 		<span>&mdash;&nbsp;</span>
 		<h6><%= link_to " DELIVERY & INSTALLATION ", services_path(:anchor => "delivery"), class: "services-list-link" %></h6>
 		<span>&mdash;&nbsp;</span>
@@ -43,7 +42,7 @@
 		<h6><%= link_to " ELECTRICAL SERVICES ", services_path(:anchor => "electrical-services"), class: "services-list-link" %></h6>
 	</div>
 
-	<div class="services-top services-sections pullUp container text-center" id="tailoring">
+	<div class="services-top container services-sections pullUp text-center" id="tailoring">
 		<div class="services-subtitle">
 			<div class="small-line-left"></div>
 				<h4>TAILORING YOUR PROJECT</h4>
@@ -134,6 +133,5 @@
 		</div>
 	</div>
 </div>
-
 
 
