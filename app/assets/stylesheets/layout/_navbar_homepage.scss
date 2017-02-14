@@ -32,13 +32,13 @@
 /* Navbar main section (with form, links, button) */
 .navbar-bms-main-homepage {
   position: absolute;
-  top: 150px;
-  right: calc(100vw - 69%);
+  top: 140px;
+  right: calc(100vw - 70.5%);
+  display: flex;
   
 }
 .navbar-bms-link {
   color: black;
-  font-size: 14px;
   padding: 0 10px;
   font-weight: lighter;
   letter-spacing: 2px;

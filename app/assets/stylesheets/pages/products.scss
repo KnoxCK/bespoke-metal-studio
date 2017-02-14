@@ -14,6 +14,7 @@
 	position: relative;
 	h3 {
 		margin: 0 20px 0 20px;
+		font-size: 12px;
 	}
 }
 .products-main img {
@@ -22,7 +23,7 @@
 	margin-bottom: 30px;	
 }
 .products-para {
-	margin: 50px 250px 30px 250px;
+	margin: 50px 160px 30px 160px;
 }
 .products-sub-section {
 	padding: 0 20px;
@@ -39,10 +40,11 @@
 	h4 {
 		padding-left: 10px;
 		padding-right: 10px;
+		font-size: 19px;
 	}
 }
 .products-sub-images {
-	height: 40vh;
+	height: 35vh;
 	display: flex;
 	justify-content: space-around;
 	align-content: center;

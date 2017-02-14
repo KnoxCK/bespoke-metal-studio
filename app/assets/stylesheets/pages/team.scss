@@ -6,6 +6,7 @@
   position: relative;
   h3 {
     margin: 0 20px 0 20px;
+    font-size: 24px;
   }
 }
 .team-images {
@@ -13,15 +14,16 @@
 	justify-content: center;
 }
 .team-image img {
-	height: 500px;
-	width: 400px;
-	padding: 0 30px;
+	height: 400px;
+	width: 330px;
+	padding: 0 15px;
 }
 .team-content {
-	margin: 0px 30px;
+	margin: 0px 15px;
 	background-color: #FBFAF9;
 	padding: 20px 8px;
 	height: 290px;
+	width: 300px;
 	h6 {
 		padding-bottom: 5px;
 	}

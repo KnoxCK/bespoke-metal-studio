@@ -29,13 +29,13 @@
 /* Navbar main section (with form, links, button) */
 .navbar-bms-main {
   position: absolute;
-  top: 23px;
-  right: calc(100vw - 69%);
-  
+  top: 12px;
+  right: calc(100vw - 70.5%);
+  display: flex;
 }
 .navbar-bms-link {
   color: black;
-  font-size: 14px;
+  font-size: 12px;
   padding: 0 10px;
   letter-spacing: 2px;
   line-height: 0.5px;
