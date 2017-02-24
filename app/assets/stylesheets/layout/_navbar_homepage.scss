@@ -125,7 +125,10 @@
   text-decoration: none;
 }
 
-@media only screen and (min-width:769px){
+@media only screen and (max-width:1025px){
+  .navbar-bms-main-homepage {
+    right: calc(100vw - 73.5%);
+  }
 }
 // IPAD - portrait 767 - 768
 @media only screen and (min-width: 767px) and (max-width:768px){
@@ -138,16 +141,24 @@
 @media only screen and (max-width:766px){ 
   .navbar-bms-brand-homepage img {
     top: 5%;
-    right: calc(100vw - 61.3%);
-}
+    right: calc(100vw - 64.3%);
+  }
 }
 // IPHONE 5 – landscape 500 - 600
 @media only screen and (max-width:600px){ 
 }
 // IPHONE 6 & Plus– portrait 360 - 500
 @media only screen and (max-width:500px){ 
+  .navbar-bms-brand-homepage img {
+    top: 5%;
+    right: calc(100vw - 75.3%);
+  }
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
+  .navbar-bms-brand-homepage img {
+    top: 10%;
+    right: calc(100vw - 79.3%);
+  }
 }
 
