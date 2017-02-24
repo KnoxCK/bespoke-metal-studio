@@ -42,7 +42,7 @@
 // IPAD - portrait 767 - 768
 @media only screen and (min-width: 767px) and (max-width:768px){
 	.contact-content {
-		margin-top: 40vh;
+		margin-top: 35vh;
 		width: 90vw;
 	}
 	.contact-para {
@@ -60,11 +60,14 @@
 }
 // IPHONE 5 – landscape 500 - 600
 @media only screen and (max-width:600px){ 
+	.contact-para {
+ 	   padding: 40px 30px 20px 30px;
+	}
 }
 // IPHONE 6 & Plus– portrait 360 - 500
 @media only screen and (max-width:500px){ 
 	.contact-content {
-		margin-top: 340px;
+		margin-top: 250px;
 	}
 	.contact-para {
   		padding: 50px 30px 20px 30px;

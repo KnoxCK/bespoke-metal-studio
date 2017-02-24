@@ -14,24 +14,23 @@
 	justify-content: center;
 }
 .team-image img {
-	height: 400px;
-	width: 330px;
+	width: 25vw;
 	padding: 0 15px;
 }
 .team-content {
 	margin: 0px 15px;
 	background-color: #FBFAF9;
 	padding: 20px 8px;
-	height: 290px;
-	width: 300px;
 	h6 {
 		padding-bottom: 5px;
+		font-size: 12px;
 	}
 }
 .team-member {
 	background-color: white;
 	padding-bottom: 60px;
 	margin-top: 20px;
+	width: 25vw;
 }
 .team-banner {
 	margin-bottom: -70px;
@@ -45,11 +44,9 @@
 @media only screen and (min-width:769px){
 }
 // IPAD - portrait 767 - 768
-@media only screen and (min-width: 767px) and (max-width:768px){
-	.team-images {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
+@media only screen and (max-width:768px){
+	.team-content p {
+		font-size: 12px;
 	}
 }
 
@@ -58,9 +55,26 @@
 }
 // IPHONE 5 – landscape 500 - 600
 @media only screen and (min-width: 500px) and (max-width:600px){ 
+	.team-image img {
+	    padding: 0 5px;
+	}
+	.team-content {
+		margin: 0 5px;
+	}
 }
 // IPHONE 6 & Plus– portrait 360 - 500
-@media only screen and (min-width: 360px) and (max-width:500px){ 
+@media only screen and (max-width:500px){ 
+	.team-images {
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+	}
+	.team-image img {
+		width: 80vw;
+	}
+	.team-member {
+		width: 80vw;
+		padding-bottom: 0;
+	}
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 

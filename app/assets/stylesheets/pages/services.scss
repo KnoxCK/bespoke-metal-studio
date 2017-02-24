@@ -116,8 +116,18 @@
   }
 }
 
-// Galaxy/Nexus - landscape 600 - 766
+// Galaxy/Nexus & 6 - landscape 600 - 766
 @media only screen and (min-width: 600px) and (max-width:766px){ 
+  .services-sections {
+    img {
+      width: 60vw;
+      height: auto;
+    } 
+    p {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }
 // IPHONE 5 – landscape 500 - 600
 @media only screen and (min-width: 500px) and (max-width:600px){ 
