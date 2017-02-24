@@ -7,10 +7,9 @@
 	width: 96vw;
 }
 .about-para {
-  padding: 40px 130px 20px 130px;
   p {
   	margin-bottom: 20px;
-  	padding: 0 40px;
+  	padding: 40px 140px;
   }
 }
 .about-image img {
@@ -20,34 +19,54 @@
 @media only screen and (min-width:769px){
 }
 // IPAD - portrait 767 - 768
-@media only screen and (max-width:768px){
+@media only screen and (min-width:761px) and (max-width:768px){
 	.about-content {
-		margin-top: 40vh;
+		margin-top: 30vh;
 		width: 90vw;
 	}
 	.about-para {
-  		padding: 50px 30px 20px 30px;
-  	}
+	  	p {
+	  		padding: 40px 60px;
+	  	}
+	}
 }
 
 // Galaxy/Nexus - landscape 600 - 766
-@media only screens and (max-width:766px){ 
+@media only screen and (max-width:760px){
+	.about-content {
+		margin-top: 70vh;
+		width: 90vw;
+	}
+	.about-para {
+	  	p {
+	  		padding: 40px 60px;
+	  	}
+	}
 }
 // IPHONE 5 – landscape 500 - 600
 @media only screen and (max-width:600px){ 
+	.about-content {
+    	margin-top: 200px;
+	}
 }
 // IPHONE 6 & Plus– portrait 360 - 500
 @media only screen and (max-width:500px) { 
 	.about-content {
-    	margin-top: 350px;
+    	margin-top: 160px;
 	}
 	.about-para {
   		padding: 50px 0px 20px 0px;
+  		p {
+    		padding: 0 30px;
+  		}
   	}
   	.about-image img {
-    	width: 90vw;
+    	width: 70vw;
 	}
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
+	.about-content {
+    	margin-top: 170px;
+	}
 }

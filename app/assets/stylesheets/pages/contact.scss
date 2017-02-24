@@ -56,16 +56,15 @@
 }
 
 // Galaxy/Nexus - landscape 600 - 766
-@media only screen and (min-width: 600px) and (max-width:766px){ 
+@media only screen and (max-width:766px){ 
 }
 // IPHONE 5 – landscape 500 - 600
-@media only screen and (min-width: 500px) and (max-width:600px){ 
+@media only screen and (max-width:600px){ 
 }
 // IPHONE 6 & Plus– portrait 360 - 500
 @media only screen and (max-width:500px){ 
 	.contact-content {
-		margin-top: 350px;
-		width: 137vw;
+		margin-top: 340px;
 	}
 	.contact-para {
   		padding: 50px 30px 20px 30px;
@@ -73,12 +72,12 @@
   	.contact-image img {
 	    padding-top: 30px;
 	    padding-bottom: 65px;
-	    width: 470px;
+	    width: 70vw;
 	}
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
 	.contact-content {
-		width: 154vw;
+		margin-top: 170px;
 	}
 }

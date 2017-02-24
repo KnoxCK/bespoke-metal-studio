@@ -91,13 +91,13 @@
 	padding-bottom: 80px;
 }
 
+// DESKTOP ONLY
 @media only screen and (min-width:769px){
 }
 // IPAD - portrait 767 - 768
-@media only screen and (min-width: 767px) and (max-width:768px){
+@media only screen and (max-width:768px){
 	.products-content {
-		margin-top: 40vh;
-		width: 90vw;
+		margin-top: 30vh;
 	}
 	.products-para {
 		margin: 30px 80px 10px 80px;
@@ -106,55 +106,68 @@
 		height: 15vh;
 	}
 	.products-sub-para {
-		padding: 0 60px;
+		padding: 8px 60px;
 	}
 	.last-section {
-		padding-bottom: 55px;
+		padding-bottom: 70px;
+	}
+	.products-sub-section {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
-// Galaxy/Nexus - landscape 600 - 766
-@media only screen and (min-width: 600px) and (max-width:766px){ 
+// Galaxy/Nexus & IPHONE 6 - landscape 600 - 766
+@media only screen and (max-width:766px){ 
+	.products-sub-images {
+		height: 30vh;
+	}
+	.products-content {
+    	margin-top: 70vh;
+	}
 }
 // IPHONE 5 – landscape 500 - 600
-@media only screen and (min-width: 500px) and (max-width:600px){ 
+@media only screen and (max-width:600px){ 
+	.products-content {
+    	margin-top: 170px;
+	}
 }
 // IPHONE 6 & Plus– portrait 360 - 500
 @media only screen and (max-width:500px){ 
-	.products-content {
-    	width: 137vw;
-    	margin-top: 350px;
-	}
 	.products-para {
   		margin-left: 20px;
   		margin-right: 20px;
   	}
-  	.products-sub-images {
-    	height: 15vh;
-    	margin-left: 0;
-    	margin-right: 0;
+  	.products-sub-para {
+	    padding: 20px 30px;
+	}
+	.products-sub-images {
+		height: 10vh;
 	}
 	.products-sub-image-1 img {
-		width: 25vw;
+		margin: 5px 5px;
 	}
 	.products-sub-image-2 img {
-		width: 25vw;
+		margin: 5px 5px;
 	}
 	.products-sub-image-3 img {
-		width: 25vw;
+		margin: 5px 5px;
 	}
 	.products-sub-image-4 img {
-		width: 25vw;
+		margin: 5px 5px;
 	}
-	.products-sub-para { 
-		padding: 20px 30px 0 30px;
+	.products-content {
+    	margin-top: 250px;
 	}
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
+	.products-sub-para {
+	    padding: 20px 30px 10px 30px;
+	}
 	.products-content {
-    	width: 154vw;
-    }
+    	margin-top: 170px;
+	}
 }
 
 
