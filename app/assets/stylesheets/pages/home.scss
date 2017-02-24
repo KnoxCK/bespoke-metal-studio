@@ -1,21 +1,2 @@
 
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  padding-top: 10px;
-}
-.services-collage {
-  padding: 40px 100px 40px 100px;
-}
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-   
-  -webkit-column-count: 5;
-  -webkit-column-gap:   5px;
-  -moz-column-count:    5;
-  -moz-column-gap:      5px;
-  column-count:         3;
-  column-gap:           10px;  
-}
+

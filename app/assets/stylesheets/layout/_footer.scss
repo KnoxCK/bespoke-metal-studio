@@ -38,30 +38,45 @@
 		text-decoration: none;
 	}
 }
-.footer-mid-right {
-	width: 100px;
-}
 
 @media only screen and (min-width:769px){
 }
 // IPAD - portrait 767 - 768
-@media only screen and (min-width: 767px) and (max-width:768px){
+@media only screen and (max-width:768px){
   .footer-main {
-    padding: 6vh 100px 0 100px;
-    margin-top: 0px;
-    height: 30vh;
-	}
+  	padding: 40px 10vh 48px 10vh;
+  	height: 25vh;
+  }
 }
 
 // Galaxy/Nexus - landscape 600 - 766
-@media only screen and (min-width: 600px) and (max-width:766px){ 
+@media only screen and (max-width:766px){ 
+	.footer-main {
+		height: 68vh;
+	}
+	.footer-right {
+		padding-right: 34px;
+	}
 }
 // IPHONE 5 – landscape 500 - 600
-@media only screen and (min-width: 500px) and (max-width:600px){ 
+@media only screen and (max-width:600px){ 
 }
 // IPHONE 6 & Plus– portrait 360 - 500
-@media only screen and (min-width: 360px) and (max-width:500px){ 
+@media only screen and (max-width:500px){ 
+	.footer-main {
+	  	padding: 40px 10vh 40px 10vh;
+	    height: 60vh;
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
+	.footer-main {
+	  	padding: 40px 6vh 40px 6vh;
+	    height: 68vh;
+	}
+	.footer-right {
+		padding-right: 34px;
+	}
 }
