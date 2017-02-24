@@ -41,3 +41,32 @@
 	background-position: center;
 	z-index: 3;
 }
+
+@media only screen and (min-width:769px){
+}
+// IPAD - portrait 767 - 768
+@media only screen and (min-width: 767px) and (max-width:768px){
+	.team-images {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+}
+
+// Galaxy/Nexus - landscape 600 - 766
+@media only screen and (min-width: 600px) and (max-width:766px){ 
+}
+// IPHONE 5 – landscape 500 - 600
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+}
+// IPHONE 6 & Plus– portrait 360 - 500
+@media only screen and (min-width: 360px) and (max-width:500px){ 
+}
+// IPHONE 5 & smaller – portrait max 359
+@media only screen and (max-width:359px){ 
+}
+
+
+
+
+

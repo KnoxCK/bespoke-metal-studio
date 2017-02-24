@@ -7,7 +7,7 @@
 .footer-main {
 	display: flex;
 	justify-content: space-between;
-	padding: 10vh 300px 0 300px;
+	padding: 10vh 150px 0 150px;
 	height: 40vh;
 	margin-top: 0px;
 	h6 {
@@ -42,3 +42,26 @@
 	width: 100px;
 }
 
+@media only screen and (min-width:769px){
+}
+// IPAD - portrait 767 - 768
+@media only screen and (min-width: 767px) and (max-width:768px){
+  .footer-main {
+    padding: 6vh 100px 0 100px;
+    margin-top: 0px;
+    height: 30vh;
+	}
+}
+
+// Galaxy/Nexus - landscape 600 - 766
+@media only screen and (min-width: 600px) and (max-width:766px){ 
+}
+// IPHONE 5 – landscape 500 - 600
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+}
+// IPHONE 6 & Plus– portrait 360 - 500
+@media only screen and (min-width: 360px) and (max-width:500px){ 
+}
+// IPHONE 5 & smaller – portrait max 359
+@media only screen and (max-width:359px){ 
+}

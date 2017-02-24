@@ -91,3 +91,89 @@
 .second-para {
   padding-right: 20px;
 }
+
+@media only screen and (min-width:769px){
+}
+// IPAD - portrait 767 - 768
+@media only screen and (min-width: 767px) and (max-width:768px){
+  .services-subtitle {
+    padding-top: 70px;
+  } 
+  .services-sections {
+    img {
+      width: 60vw;
+      height: auto;
+    }
+    p {
+      padding: 0;
+    }
+  }
+  .services-list-two p {
+    font-size: 10px;
+  }
+  .services-sections {
+    padding: 0;
+  }
+}
+
+// Galaxy/Nexus - landscape 600 - 766
+@media only screen and (min-width: 600px) and (max-width:766px){ 
+}
+// IPHONE 5 – landscape 500 - 600
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+}
+// IPHONE 6 & Plus– portrait 360 - 500
+@media only screen and (max-width:500px){ 
+  .services-lists {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    padding-top: 0;
+    width: 137vw;
+    justify-content: center;
+    align-content: center;
+  }
+  .services-title {
+    margin-left: 120px;
+  }
+  .services-sections {
+    img {
+      width: 100vw;
+      height: auto;
+    } 
+    p {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .services-stuck {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .second-para {
+    padding-right: 0;
+  }
+  .services-sections {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 137vw;
+  }
+}
+// IPHONE 5 & smaller – portrait max 359
+@media only screen and (max-width:359px){ 
+  .services-lists {
+    width: 154vw;
+  }
+  .services-sections {
+    width: 154vw;
+  }
+  .services-title {
+    margin-left: 178px;
+  }
+  .services-lists {
+    margin-left: 178px;
+  }
+}
+
+

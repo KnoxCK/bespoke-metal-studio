@@ -7,11 +7,11 @@
 				<h3>SERVICES</h3>
 			</div>
 			<div class="services-lists container pullDown">
-				<div class="text-center">
+				<div class="text-center mobile">
 					<h6><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></h6>
 					<h6><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></h6>
 					<h6><%= link_to " THE PRODUCTION PROCESS", services_path(:anchor => "production-process"), class: "services-list-link" %></h6>
-					<h6><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link" %></h6>
+					<h6><%= link_to " MATERIALS", services_path(:anchor => "materials"), class: "services-list-link materials-mobile" %></h6>
 				</div>
 				<div class="text-center second-para">
 					<h6><%= link_to " FINISHES", services_path(:anchor => "finishes"), class: "services-list-link" %></h6>
@@ -23,7 +23,7 @@
 		</div>
 	</div>
 
-	<div class="services-list-two pullDown container hidden">
+	<div class="services-list-two pullDown container hidden hidden-xs">
 		<div>
 			<p><%= link_to " TAILORING YOUR PROJECT", services_path(:anchor => "tailoring"), class: "services-list-link" %></p>
 			<p><%= link_to " PRODUCT DESIGN AND DEVELOPMENT", services_path(:anchor => "product-design"), class: "services-list-link" %></p>

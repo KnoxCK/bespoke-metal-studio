@@ -91,7 +91,71 @@
 	padding-bottom: 80px;
 }
 
+@media only screen and (min-width:769px){
+}
+// IPAD - portrait 767 - 768
+@media only screen and (min-width: 767px) and (max-width:768px){
+	.products-content {
+		margin-top: 40vh;
+		width: 90vw;
+	}
+	.products-para {
+		margin: 30px 80px 10px 80px;
+	}
+	.products-sub-images {
+		height: 15vh;
+	}
+	.products-sub-para {
+		padding: 0 60px;
+	}
+	.last-section {
+		padding-bottom: 55px;
+	}
+}
 
+// Galaxy/Nexus - landscape 600 - 766
+@media only screen and (min-width: 600px) and (max-width:766px){ 
+}
+// IPHONE 5 – landscape 500 - 600
+@media only screen and (min-width: 500px) and (max-width:600px){ 
+}
+// IPHONE 6 & Plus– portrait 360 - 500
+@media only screen and (max-width:500px){ 
+	.products-content {
+    	width: 137vw;
+    	margin-top: 350px;
+	}
+	.products-para {
+  		margin-left: 20px;
+  		margin-right: 20px;
+  	}
+  	.products-sub-images {
+    	height: 15vh;
+    	margin-left: 0;
+    	margin-right: 0;
+	}
+	.products-sub-image-1 img {
+		width: 25vw;
+	}
+	.products-sub-image-2 img {
+		width: 25vw;
+	}
+	.products-sub-image-3 img {
+		width: 25vw;
+	}
+	.products-sub-image-4 img {
+		width: 25vw;
+	}
+	.products-sub-para { 
+		padding: 20px 30px 0 30px;
+	}
+}
+// IPHONE 5 & smaller – portrait max 359
+@media only screen and (max-width:359px){ 
+	.products-content {
+    	width: 154vw;
+    }
+}
 
 
 
