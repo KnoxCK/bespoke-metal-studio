@@ -95,7 +95,7 @@
 @media only screen and (min-width:769px){
 }
 // IPAD - portrait 767 - 768
-@media only screen and (min-width: 767px) and (max-width:768px){
+@media only screen and (max-width: 1024px){
   .services-subtitle {
     padding-top: 70px;
   } 
@@ -137,24 +137,23 @@
   .services-lists {
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-    padding-top: 0;
-    width: 137vw;
     justify-content: center;
     align-content: center;
   }
-  .services-title {
-    margin-left: 120px;
-  }
   .services-sections {
+    padding-left: 0px;
+    padding-right: 0px;
     img {
-      width: 100vw;
+      width: 80vw;
       height: auto;
     } 
     p {
       padding-left: 0;
       padding-right: 0;
     }
+  }
+  .services-para {
+    margin: 20px 40px 40px 40px;
   }
   .services-stuck {
     display: flex;
@@ -167,23 +166,13 @@
   .services-sections {
     padding-left: 0px;
     padding-right: 0px;
-    width: 137vw;
   }
+}
+.services-subtitle {
+  padding-top: 40px;
 }
 // IPHONE 5 & smaller – portrait max 359
 @media only screen and (max-width:359px){ 
-  .services-lists {
-    width: 154vw;
-  }
-  .services-sections {
-    width: 154vw;
-  }
-  .services-title {
-    margin-left: 178px;
-  }
-  .services-lists {
-    margin-left: 178px;
-  }
 }
 
 

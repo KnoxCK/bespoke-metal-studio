@@ -3,12 +3,14 @@
 	background-color: #EFEAE5;
 	z-index: 10000 !important;
 	position: relative;
+	width: 100%;
 }
 .footer-main {
 	display: flex;
 	justify-content: space-between;
-	padding: 10vh 150px 0 150px;
-	height: 40vh;
+	flex-wrap: wrap;
+	padding: 50px 150px 50px 150px;
+	height: auto;
 	margin-top: 0px;
 	h6 {
 	color: #4B4B4B;
@@ -38,45 +40,60 @@
 		text-decoration: none;
 	}
 }
+.footer-left {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer-mid-left {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer-mid-right {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.footer-right {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
-@media only screen and (min-width:769px){
+@media only screen and (max-width:1024px){
+	
+}
+@media only screen and (max-width:890px){
+	.footer-main {
+		padding: 50px 80px 50px 50px;
+	}
 }
 // IPAD - portrait 767 - 768
-@media only screen and (max-width:768px){
+@media only screen and (max-width:769px){
   .footer-main {
-  	padding: 40px 10vh 48px 10vh;
-  	height: 25vh;
+  	padding: 40px 10vh 40px 10vh;
+  	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
   }
 }
 
 // Galaxy/Nexus - landscape 600 - 766
-@media only screen and (max-width:766px){ 
-	.footer-main {
-		height: 68vh;
-	}
-	.footer-right {
-		padding-right: 34px;
-	}
-}
+
 // IPHONE 5 – landscape 500 - 600
-@media only screen and (max-width:600px){ 
+@media only screen and (max-width:754px){
+	 .footer-main {
+	  	padding: 40px 10vh 40px 10vh;
+	}
 }
 // IPHONE 6 & Plus– portrait 360 - 500
-@media only screen and (max-width:500px){ 
-	.footer-main {
-	  	padding: 40px 10vh 40px 10vh;
-	    height: 60vh;
-		display: flex;
-		flex-wrap: wrap;
+@media only screen and (max-width:668px){ 
+	.footer-right {
+		padding-right: 50px;
 	}
 }
+@media only screen and (max-width:594px){ 
+}
 // IPHONE 5 & smaller – portrait max 359
-@media only screen and (max-width:359px){ 
+@media only screen and (max-width: 454px){
 	.footer-main {
-	  	padding: 40px 6vh 40px 6vh;
-	    height: 68vh;
-	}
-	.footer-right {
-		padding-right: 34px;
+	    padding: 40px 2vh 40px 2vh;
 	}
 }

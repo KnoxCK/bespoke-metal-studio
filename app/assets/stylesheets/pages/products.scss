@@ -92,7 +92,13 @@
 }
 
 // DESKTOP ONLY
-@media only screen and (min-width:769px){
+@media only screen and (max-width:1025px){
+	.products-sub-images {
+    	height: 26vh;
+	}
+	.products-sub-para {
+ 	   padding: 0 70px;
+	}
 }
 // IPAD - portrait 767 - 768
 @media only screen and (max-width:768px){
@@ -110,6 +116,10 @@
 	}
 	.last-section {
 		padding-bottom: 70px;
+		padding-top: 0px;
+	}
+	.second-last-para {
+	    padding-bottom: 0px;
 	}
 	.products-sub-section {
 		padding-left: 0;
